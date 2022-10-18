@@ -10,6 +10,7 @@
 
 }
 
+
 *{
 	margin: 0;
 	padding: 0;
@@ -248,7 +249,16 @@ a.nav-link{
 	display: inline-block;
 	font-size: 16px;
 	width: 170px;
-	
+
+	box-shadow: 3px 6px 48px 11px rgba(188,153,202,0.75);
+	-webkit-box-shadow: 3px 6px 48px 11px rgba(188,153,202,0.75);
+	-moz-box-shadow: 3px 6px 48px 11px rgba(188,153,202,0.75);
+}
+.demoButton:hover {
+
+	background-color: purple; /* Green */
+	color: black;;
+			
 }
 
 /*──────────────────
