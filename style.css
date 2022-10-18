@@ -192,16 +192,23 @@ a.nav-link{
 	align-items: center;
 	padding: 20px;
 }
+.project {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
+}
 .card{
 	display: flex;
 	flex-direction: column;
 	margin: 20px;
-	width: 200px;
-	height:250px;
+	width: 250px;
+	height:350px;
 	border-radius:12px;
     background:var(--main-decor-color);
 }
+
 
 .card img{
 	width: 100%;
@@ -231,12 +238,26 @@ a.nav-link{
 	box-shadow: 0 0 1.5rem gray;
 }
 
+.demoButton {
+	background-color:#4c0065; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 170px;
+	
+}
+
 /*──────────────────
       Contact
 ──────────────────*/
 
 #contact{
 	margin: auto;
+	margin-top: 80px;
 	padding-bottom: 20px;
 	height: 600px;
 	display: flex;
@@ -252,7 +273,12 @@ a.nav-link{
 	font-size:1.2rem;
 	font-family: var(--main-font-family);
 }
-
+.emailBox {
+	display: flex;
+	margin-top: -200px;
+	justify-content: center;
+	align-items: center;;
+}
 /*────────────────── 
        footer
 ──────────────────*/
