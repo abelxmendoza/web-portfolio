@@ -261,6 +261,32 @@ a.nav-link{
 			
 }
 
+.resumeButton {
+	background-color:#4c0065; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 140px;
+	margin-left: 50px;
+
+	box-shadow: 3px 6px 48px 11px rgba(188,153,202,0.75);
+	-webkit-box-shadow: 3px 6px 48px 11px rgba(188,153,202,0.75);
+	-moz-box-shadow: 3px 6px 48px 11px rgba(188,153,202,0.75);
+}
+.resumeButton:hover {
+
+	background-color: purple; /* Green */
+	color: black;;
+			
+}
+
+
 /*──────────────────
       Contact
 ──────────────────*/
