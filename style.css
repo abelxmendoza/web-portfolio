@@ -193,6 +193,11 @@ a.nav-link{
 	align-items: center;
 	padding: 20px;
 }
+
+.work-content {
+	text-decoration: none;
+}
+
 .project {
 	display: flex;
 	flex-direction: column;
@@ -225,6 +230,15 @@ a.nav-link{
 	font-family: var(--main-font-family);
 	cursor: pointer;
 }
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-link:hover .work-content {
+    color: #202020;
+}
+
 
 .card a{
 	text-decoration: none;
