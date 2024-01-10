@@ -162,6 +162,13 @@ a.nav-link{
 	text-shadow: 0 0 50px var(--main-decor-color);
 }
 
+.pdfResume {
+
+	margin-top: 20px;
+	position: center;
+	margin-right: 50px;
+}
+
 /*──────────────────
       projects
 ──────────────────*/
@@ -300,6 +307,16 @@ a.nav-link{
 			
 }
 
+
+.resumeButton a {
+    color: white;              /* Set the font color to white */
+    text-decoration: none;     /* Remove the underline */
+}
+
+.resumeButton a:hover {
+    color: black;               /* Color on hover */
+    text-decoration: none;     /* Ensure underline doesn't reappear on hover */
+}
 
 /*──────────────────
       Contact
